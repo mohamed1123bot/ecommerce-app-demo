@@ -20,7 +20,6 @@ public class UserService
     }
 
     public User register(User user) {
-            // ممكن تضيف تشفير للباسورد هنا لاحقًا
             return userRepository.save(user);
         }
 
